@@ -151,3 +151,5 @@ with socket.socket() as server_sock:
             except Exception as e:
                 print(f"Failed to parse request: {e}")
                 client_sock.sendall(BAD_REQUEST_RESPONSE)
+                
+               	
